@@ -8,6 +8,7 @@ import { TestImageComponent } from "./test_image.component";
     NativeScriptModule,
     NativeScriptFormsModule
   ],
+  exports:      [ TestImageComponent ],
   declarations: [
     TestImageComponent
   ]
