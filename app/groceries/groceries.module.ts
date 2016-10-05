@@ -5,6 +5,7 @@ import { groceriesRouting } from "./groceries.routing";
 import { GroceriesComponent } from "./groceries.component";
 import { GroceryListComponent } from "./grocery-list/grocery-list.component";
 import { ItemStatusPipe } from "./grocery-list/item-status.pipe";
+import { TestImageComponent } from "../test_image/test_image.component";
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { ItemStatusPipe } from "./grocery-list/item-status.pipe";
   declarations: [
     GroceriesComponent,
     GroceryListComponent,
+    // TestImageComponent,
     ItemStatusPipe
   ]
 })
