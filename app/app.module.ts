@@ -7,7 +7,7 @@ import { AppComponent } from "./app.component";
 import { setStatusBarColors, BackendService, LoginService } from "./shared";
 
 import { LoginModule } from "./login/login.module";
-import { TestImageModule } from "./test_image/test_image.module";
+import { TestImageModule } from "./test_image/test_image.module"; // Can't use this module in child component
 import { GroceriesModule } from "./groceries/groceries.module";
 
 setStatusBarColors();
@@ -24,7 +24,7 @@ setStatusBarColors();
     NativeScriptRouterModule.forRoot(appRoutes),
     LoginModule,
     GroceriesModule,
-    TestImageModule,
+    // TestImageModule,
   ],
   declarations: [
       AppComponent,

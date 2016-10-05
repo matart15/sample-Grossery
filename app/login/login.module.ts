@@ -13,7 +13,7 @@ import { TestImageComponent } from "../test_image/test_image.component";
     loginRouting
   ],
   declarations: [
-    // TestImageComponent,
+    TestImageComponent,
     LoginComponent
   ]
 })
